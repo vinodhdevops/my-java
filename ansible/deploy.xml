@@ -2,7 +2,6 @@
   tasks:
     - name: donwload artifacats from nexus
       maven_artifact:
-      runs-on : global-runner
         group_id: com.company
         artifact_id: library-name
         repository_url: 'https://repo.company.com/maven'
